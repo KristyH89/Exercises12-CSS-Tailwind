@@ -318,11 +318,38 @@
         <div class="bg-green-600 text-white px-6 py-4">
             <h2 class="text-2xl font-bold">Exercise 8 - Hero Section with Overlay</h2>
         </div>
-        <div class="p-6">
 
+        <div class="relative h-96">
 
+            <!-- Background picture -->
+            <img
+                    src="https://kristyh89.github.io/Workshop2_HTML_CSS/assets/noodles-CpDbMlE-.jpeg"
+                    alt="Noodles"
+                    class="w-full h-full object-cover"
+            >
 
+            <!-- Overlay -->
+            <div class="absolute inset-0 bg-black/50"></div>
 
+            <!-- Content -->
+            <div class="absolute inset-0 flex items-center justify-center">
+                <div class="text-center text-white px-6">
+
+                    <h1 class="text-5xl font-extrabold mb-4">
+                        Noodles
+                    </h1>
+
+                    <p class="text-xl mb-6">
+                        Easy comfort food with almost no effort.
+                    </p>
+
+                    <button
+                            class="bg-green-600 hover:bg-green-700 px-6 py-3 rounded-lg font-semibold transition-colors duration-300">
+                        View Recipe
+                    </button>
+
+                </div>
+            </div>
 
         </div>
     </section>
