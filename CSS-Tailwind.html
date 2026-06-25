@@ -1084,16 +1084,48 @@
 
     <!-- Exercise 19 -->
     <section id="ex-19" class="bg-white rounded-xl shadow-md overflow-hidden border border-green-200">
+
         <div class="bg-green-600 text-white px-6 py-4">
             <h2 class="text-2xl font-bold">Exercise 19 - Form Validation UI</h2>
         </div>
-        <div class="p-6">
 
+        <div class="p-6 max-w-md mx-auto">
 
+            <form class="space-y-4">
 
+                <!-- Label -->
+                <label for="email" class="block font-semibold text-green-800">
+                    Email Address
+                </label>
 
+                <!-- Input -->
+                <input
+                        id="email"
+                        type="email"
+                        required
+                        placeholder="example@email.com"
+                        class="peer w-full p-3 border border-gray-300 rounded-lg
+                       focus:outline-none focus:ring-2 focus:ring-green-500
+                       invalid:border-red-500
+                       focus:invalid:ring-red-500"
+                >
+
+                <!-- Error message -->
+                <p class="hidden text-red-500 text-sm
+                      peer-invalid:block">
+                    Please enter a valid email address.
+                </p>
+
+                <!-- Submit button -->
+                <button
+                        class="w-full bg-green-600 hover:bg-green-700 text-white py-3 rounded-lg font-bold transition">
+                    Submit
+                </button>
+
+            </form>
 
         </div>
+
     </section>
 
 
