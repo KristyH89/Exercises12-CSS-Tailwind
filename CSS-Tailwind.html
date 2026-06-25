@@ -908,7 +908,7 @@
                         Perfect for an easy dinner with almost no effort.
                     </p>
 
-                    <!-- LINK naar oefening 1 -->
+                    <!-- LINK to exercise 1 -->
                     <a href="#ex-1"
                        class="inline-block bg-green-600 hover:bg-green-700 text-white px-5 py-2 rounded-lg transition">
                         View Recipe
@@ -935,20 +935,53 @@
 
 
 
-
     <!-- Exercise 16 -->
     <section id="ex-16" class="bg-white rounded-xl shadow-md overflow-hidden border border-green-200">
+
         <div class="bg-green-600 text-white px-6 py-4">
-            <h2 class="text-2xl font-bold">Exercise 16 - Group-Hover Reveal</h2>
+            <h2 class="text-2xl font-bold">Exercise 16 - Group Hover Reveal</h2>
         </div>
+
         <div class="p-6">
 
+            <!-- PRODUCT CARD -->
+            <div class="group relative max-w-sm mx-auto overflow-hidden rounded-xl shadow-md border border-green-100">
 
+                <!-- IMAGE -->
+                <img
+                        src="https://kristyh89.github.io/Workshop2_HTML_CSS/assets/pasta-carbonara-kantarel-24Q_3BoN.jpeg""
+                        alt="Potato Gratin"
+                        class="w-full h-64 object-cover"
+                >
 
+                <!-- CONTENT -->
+                <div class="p-4 bg-white">
+                    <h3 class="text-xl font-bold text-green-800">
+                        Pasta Carbonara
+                    </h3>
 
+                    <p class="text-gray-600">
+                        Creamy oven dish with cheese and bacon.
+                    </p>
 
+                    <p class="mt-2 font-bold text-green-700">
+                        € 19.99
+                    </p>
+                </div>
+
+                <!-- HOVER BUTTON (hidden below card) -->
+                <div class="absolute bottom-0 left-0 right-0 translate-y-full group-hover:translate-y-0 transition-transform duration-300">
+
+                    <button class="w-full bg-green-600 hover:bg-green-700 text-white py-3 font-bold">
+                        🛒 Add to Cart
+                    </button>
+
+                </div>
+
+            </div>
 
         </div>
+
     </section>
 
 
